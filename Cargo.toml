@@ -1,0 +1,9 @@
+
+[workspace]
+members = [
+	"rust_microwave_spaghetti",
+	"rust_microwave_simple",
+	"c_microwave_simple",
+	"rust_microwave_typed"
+]
+
