@@ -22,8 +22,6 @@ If you want to run the tests however, all examples are managed by cargo (even th
 Please follow your platforms guide for "rustup" to setup a compatible environment. Once you have
 Rust working, you can run the tests with:
 
-::
-
     cargo test
 
 
