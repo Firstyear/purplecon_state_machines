@@ -82,7 +82,7 @@ That's a bit easier. Now we can see where the events will *change* our state rat
 From this we can draw a pretty picture:
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Firstyear/purplecon_state_machines/master/microwave.svg" width="80%" height="auto" />
+    <img src="https://raw.githubusercontent.com/Firstyear/purplecon_state_machines/master/microwave.png" width="80%" height="auto" />
 </p>
 
 What's important is every input, at every state is *well defined* with a known safe or expected behaviour. This not only helps us to design the software
