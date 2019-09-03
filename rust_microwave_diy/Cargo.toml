@@ -1,5 +1,5 @@
 [package]
-name = "rust_microwave_spaghetti"
+name = "rust_microwave_diy"
 version = "0.1.0"
 authors = ["William Brown <william@blackhats.net.au>"]
 edition = "2018"
