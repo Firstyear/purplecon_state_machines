@@ -5,3 +5,4 @@ authors = ["William Brown <william@blackhats.net.au>"]
 edition = "2018"
 
 [dependencies]
+microwave_common = { path = "../microwave_common" }

@@ -81,7 +81,7 @@ pub fn test_microwave<T: MicrowaveOps>(mw: &mut T) -> bool {
 
 
     // Test 2 - check that when the magnetron is disabled, time ticks have no effect.
-    println!("Test 1");
+    println!("Test 2");
     mw.reset();
     mw.action_open_door();
     assert_mw!(mw, true, false, 0);
@@ -146,6 +146,8 @@ pub fn test_microwave<T: MicrowaveOps>(mw: &mut T) -> bool {
 
     // Test 4 - Check that pressing start with no time advances to 30. We check some other interactions
     // of pressing the start with time also.
+    println!("Well done to make it to this point! 🎉");
+    println!("The tests get harder now ...");
     println!("Test 4");
     mw.reset();
     // CLOSED_NOTIME_NOMTRON
@@ -202,7 +204,6 @@ pub fn test_microwave<T: MicrowaveOps>(mw: &mut T) -> bool {
     // This tests all the edge cases that we normally don't think of like double closes
     // or time changes in certain states.
     println!("Test 6");
-    println!("Well done to make it to this point! 🎉");
     mw.reset();
 
     // CLOSED_NOTIME_NOMTRON -> OPEN_NOTIME

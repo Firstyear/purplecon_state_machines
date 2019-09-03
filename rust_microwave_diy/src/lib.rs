@@ -10,6 +10,8 @@ struct Microwave {}
 
 impl MicrowaveOps for Microwave {
     fn new() -> Self {
+        // Hint: When you get a microwave and unbox it, the door is closed, and no
+        // power, so the time is probably 0 :)
         Microwave {}
     }
 
