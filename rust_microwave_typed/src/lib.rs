@@ -132,7 +132,7 @@ impl Microwave<ClosedTimeNoMtron> {
 
     fn action_set_time(self, t: usize) -> Microwave<ClosedTimeNoMtron> {
         Microwave {
-            state: ClosedTimeNoMtron { t: self.state.t }
+            state: ClosedTimeNoMtron { t: t }
         }
     }
 
@@ -306,7 +306,9 @@ mod tests {
         assert_mw!(mw, true, false, 25);
         let mut mw: Microwave<ClosedTimeNoMtron> = mw.action_close_door();
         assert_mw!(mw, false, false, 25);
+        let mut mw: Microwave<ClosedTimeNoMtron> = mw.action_set_time(35);
+        assert_mw!(mw, false, false, 35);
         let mut mw: Microwave<OpenTime> = mw.action_open_door();
-        assert_mw!(mw, true, false, 25);
+        assert_mw!(mw, true, false, 35);
     }
 }
