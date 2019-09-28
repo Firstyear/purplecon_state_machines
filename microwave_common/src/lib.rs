@@ -27,9 +27,13 @@ macro_rules! assert_mw {
         if $mw.magnetron_enabled() {
             assert!($mw.door_open() == false)
         }
-        assert!($mw.door_open() == $door);
-        assert!($mw.magnetron_enabled() == $mtron);
-        assert!($mw.time_remain() == $time);
+        let d = $mw.door_open();
+        let m = $mw.magnetron_enabled();
+        let t = $mw.time_remain();
+        println!("state: d {} m {} t {}", d, m, t);
+        assert!(d == $door);
+        assert!(m == $mtron);
+        assert!(t == $time);
     }};
 }
 

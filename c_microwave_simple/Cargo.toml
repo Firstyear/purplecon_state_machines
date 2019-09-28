@@ -8,3 +8,4 @@ edition = "2018"
 cc = "1.0"
 
 [dependencies]
+microwave_common = { path = "../microwave_common" }
