@@ -7,5 +7,6 @@ members = [
 	"c_microwave_simple",
 	"rust_microwave_typed",
 	"rust_microwave_diy",
+	"c_microwave_diy",
 ]
 

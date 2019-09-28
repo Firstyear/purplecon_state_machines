@@ -106,5 +106,9 @@ Feeling inspired? Ready to give it a go?
 
 Just fill in the blanks in "rust_microwave_diy" to practice your new state machine designing skills!
 
+If you want to try the C version, fill in "c_microwave_diy" to try out how you design state machines in C!
+
+rust_microwave_diy correlates to rust_microwave_simple, and c_microwave_diy correlates to c_microwave_simple if you would like to view my implementation.
+
 
 
