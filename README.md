@@ -46,7 +46,7 @@ with high safety requirements. Yet for a device that has the capability to perfo
 they are common around the world.
 
 To understand how microwaves have been made safe, we have to appreciate how they are built. If
-you feel like it, go and try and fill in the <lang>_microwave_diy example now before we go on, and
+you feel like it, go and try and fill in the LANG_microwave_diy example now before we go on, and
 see how you go with your usual approach to programming.
 
     git branch my_first_microwave
