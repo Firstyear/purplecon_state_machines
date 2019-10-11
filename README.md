@@ -216,8 +216,10 @@ then you commit it to a backend. When you load that data you get the commited an
 you need to invalid it, alter it, and re-check against the schema before you commit.
 
 In this way Rust through it's generic system allows you to have compile time state machines. While
-it's quick inflexible for something as interactive as a microwave, you can see an example of how this
-works in rust_microwave_typed.
+it's inflexible for something as interactive as a microwave, you can see an example of how this
+works in rust_microwave_typed. It's also used extensively in [Kanidm]
+
+[Kanidm]: https://github.com/Firstyear/kanidm
 
 The great benefit of this type of compiled machine is that invalid inputs are impossible to
 compile, and the strong type signatures mean that you can't send items in the wrong state to
